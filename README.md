@@ -1,4 +1,5 @@
-Heart Disease Prediction Using Machine Learning
+**Heart Disease Prediction Using Machine Learning
+**
 
 Project Overview :
 
@@ -29,17 +30,19 @@ The objective of this project is to build a classification model that accurately
 
 Workflow : 
 
-	1.	Data Preprocessing:
-		•	Handled missing values by imputing medians.
-		•	Converted the target variable to binary, representing disease presence (1) or absence (0).
-		•	Applied SMOTE to address class imbalance.
-		•	Standardized features for better model performance.
-	2.	Model Training and Validation:
-		•	Three models were trained: Logistic Regression, Decision Tree, and Random Forest.
-		•	Evaluated each model using 10-fold cross-validation on metrics such as accuracy, precision, recall, F1-score, and AUC.
-	3.	Model Evaluation:
-		•	Split data into train and test sets.
-		•	Evaluated the best-performing model (Random Forest) on the test set and compared metrics.
+	1.Data Preprocessing:
+		•Handled missing values by imputing medians.
+		•Converted the target variable to binary, representing disease presence (1) or absence (0).
+		•Applied SMOTE to address class imbalance.
+		•Standardized features for better model performance.
+  
+	2.Model Training and Validation:
+		•Three models were trained: Logistic Regression, Decision Tree, and Random Forest.
+		•Evaluated each model using 10-fold cross-validation on metrics such as accuracy, precision, recall, F1-score, and AUC.
+  
+	3.Model Evaluation:
+		•Split data into train and test sets.
+		•Evaluated the best-performing model (Random Forest) on the test set and compared metrics.
 
 Models Used : 
 
@@ -50,6 +53,7 @@ Models Used :
 Results : 
 
 The Random Forest model achieved the highest performance, indicating its suitability for this dataset. Key metrics for Random Forest are as follows:
+
 	•	Accuracy: ~85%
 	•	Precision: ~86%
 	•	Recall: ~84%
